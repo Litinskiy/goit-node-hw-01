@@ -1,5 +1,5 @@
 const { readFile, writeFile } = require("fs").promises;
-const path = require("pass");
+const path = require("path");
 
 const contactsPath = path.resolve("./db", "contacts.json");
 
